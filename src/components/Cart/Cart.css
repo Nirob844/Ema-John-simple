@@ -3,3 +3,20 @@
     top: 0;
     padding: 30px 20px;
 }
+
+/* .clear-cart {
+
+    background-color: hsl(36, 100%, 50%);
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} */
+
+.clear-cart:hover {
+    background-color: hsl(36, 100%, 40%)
+}
