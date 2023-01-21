@@ -22,7 +22,7 @@ const Cart = ({ cart, clearCart, children }) => {
             <p>Total Shipping: ${shipping}</p>
             <p>Tax: ${tax}</p>
             <p>Grand Total: ${grandTotal.toFixed(2)}</p>
-            <button onClick={clearCart}>Clear Cart</button>
+            {/* <button onClick={clearCart}>Clear Cart</button> */}
             {children}
         </div>
     );
